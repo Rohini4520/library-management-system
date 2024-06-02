@@ -2,10 +2,7 @@ package com.acciojob.librarymanagementsystem.Models;
 
 import com.acciojob.librarymanagementsystem.Enum.CardStatus;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Entity
 @Table
@@ -13,6 +10,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+
 
 public class LibraryCard {
 @Id
@@ -31,6 +29,21 @@ public class LibraryCard {
     @OneToOne  //mapping between entries
 
     private Student student; //which entity you have connected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -19,7 +19,7 @@ import org.springframework.boot.autoconfigure.web.WebProperties;
 public class Student {
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
-private Integer StudentId;
+private Integer studentId;
 
     private String name;
 
